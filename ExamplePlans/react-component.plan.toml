@@ -1,0 +1,22 @@
+[meta]
+name = "react-component"
+version = "0.1.0"
+
+[inputs]
+inputs = ["workDir", "componentName"]
+
+[[files]]
+template_file = "component.template.tsx"
+output_file = "{{workDir}}/frontend/src/components/{{componentName}}/{{componentName}}.tsx"
+
+[[files]]
+template_file = "spec.template.ts"
+output_file = "{{workDir}}/frontend/src/components/{{componentName}}/{{componentName}}.spec.ts"
+
+[[files]]
+template_file = "storybook.template.tsx"
+output_file = "{{workDir}}/frontend/src/components/{{componentName}}/{{componentName}}.stories.tsx"
+
+[[files]]
+template_file = "test-data.template.ts"
+output_file = "{{workDir}}/frontend/src/components/{{componentName}}/test-data.ts"
