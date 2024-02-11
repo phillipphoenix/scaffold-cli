@@ -64,4 +64,6 @@ The output will be the following.
 
 ![Screenshot](readme-assets/screenshot-running-plan.png)
 
-The files also use the {{ KEY }} syntax to have values inserted instead of the key.
+The files also use the {{KEY}} syntax to have values inserted instead of the key.
+
+NOTE: To use this plan, copy the the contents of the `ExamplePlans` folder to a folder called `plans` in the location of your executable (for instance in `target/debug` after running or building).
